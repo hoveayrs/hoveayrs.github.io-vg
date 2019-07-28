@@ -11,7 +11,7 @@ p, li, span {
 h2 {
   font-size: 1.5em;
   text-align: left;
-  padding: 5em 0;
+  padding: 2em 0;
   padding-left: 2em;
   padding-right: 2em;
   color: black;
@@ -20,7 +20,7 @@ h2 {
 p.main {
   font-size: 1em;
   text-align: left;
-  padding: 5em 0;
+  padding: 2em 0;
   padding-left: 2em;
   padding-right: 2em;
   color: black;
