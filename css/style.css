@@ -41,10 +41,6 @@ html.home {
   background-color: white;
 }
 
-html.comingsoon {
-  background: linear-gradient(to right, #61E98C 0%, #52A2DE);
-}
-
 #page {
   width: 100%;
   height: 100%;
