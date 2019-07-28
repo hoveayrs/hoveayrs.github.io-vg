@@ -1,14 +1,16 @@
 
 html {
   font-family: 'Unna', serif;
+  font-size: calc(1em + 1vw)
 }
 
 p, li, span {
   font-weight: normal;
 }
 
+
 p.main {
-  font-size: 8em;
+  font-size: 2em;
   text-align: left;
   padding: 5em 0;
   padding-left: 2em;
