@@ -11,18 +11,18 @@ p, li, span {
 h2 {
   font-size: 1.5em;
   text-align: left;
-  padding: 2em 0;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 1em 0;
+  padding-left: 1em;
+  padding-right: 1em;
   color: black;
 }
 
 h3 {
   font-size: 1em;
   text-align: left;
-  padding: 2em 0;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 1em 0;
+  padding-left: 1em;
+  padding-right: 1em;
   color: black;
 }
 
@@ -79,12 +79,17 @@ a {
   text-decoration: none;
 }
 
-a.back {
-  top: .5em;
-  left: 1em;
-  width: 4em;
-  height: 4em;
-  position: fixed;
+a.back:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #4B87CE;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease all .3s;
+  transition: 0.2s ease all .3s;
 }
 
 a.ultraviolet:before {
@@ -157,6 +162,19 @@ a:hover:before {
   width: 100%;
   -webkit-transform: 0.3s ease all;
   transform: 0.3s ease all;
+}
+
+.back {
+  top: 1em;
+  left: 1em;
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  color: #4B87CE;
+  background: #4B87CE;
+  opacity: 40%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .blush {
