@@ -17,6 +17,15 @@ h2 {
   color: black;
 }
 
+h3 {
+  font-size: 1em;
+  text-align: left;
+  padding: 2em 0;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: black;
+}
+
 p.main {
   font-size: 1em;
   text-align: left;
@@ -68,6 +77,14 @@ a {
   position: relative;
   color: #4B87CE;
   text-decoration: none;
+}
+
+a.back {
+  top: .5em;
+  left: 1em;
+  width: 4em;
+  height: 4em;
+  position: fixed;
 }
 
 a.ultraviolet:before {
