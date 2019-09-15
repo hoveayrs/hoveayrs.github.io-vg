@@ -13,3 +13,24 @@
 .highlight {
   color: #4B87CE
 }
+
+a.graphic:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #4B87CE;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease all .3s;
+  transition: 0.2s ease all .3s;
+}
+
+.graphic {
+  color: #4B87CE;
+  background: #4B87CE;
+  opacity: 40%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
