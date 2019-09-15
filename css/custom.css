@@ -1,7 +1,11 @@
+.title {
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
+
 .hero {
   text-align: center;
   background: rgba(75, 135, 206, 0.3);
-
 }
 
 .highlight {
