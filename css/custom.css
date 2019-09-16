@@ -35,3 +35,13 @@ a.left:hover:before {
   visibility: visible;
   width: 100%;
 }
+
+.quote {
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
