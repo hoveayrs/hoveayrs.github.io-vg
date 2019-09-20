@@ -10,7 +10,7 @@
   background: rgba(75, 135, 206, 0.3);
 }
 
-.highlight {
+.craniohead {
   color: #4B87CE;
 }
 
@@ -18,12 +18,12 @@ a {
   text-decoration: none;
 }
 
-a.left
+a.craniolink
 {
     position: relative;
 }
 
-a.left:before {
+a.craniolink:before {
   content: "";
   position: absolute;
   width: 0;
@@ -35,7 +35,7 @@ a.left:before {
   transition: all 0.3s ease-in-out;
 }
 
-a.left:hover:before {
+a.craniolink:hover:before {
   visibility: visible;
   width: 100%;
 }
@@ -56,3 +56,8 @@ a.left:hover:before {
 
 span {
   font-size: 1.5rem;  }
+
+.copyright {
+  font-size: 0.4rem;
+  text-align: right;
+}
