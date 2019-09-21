@@ -18,13 +18,10 @@
   color: #B3272B;
 }
 
-a {
-  text-decoration: none;
-}
-
 a.craniolink
 {
     position: relative;
+    color: #4B87CE;
 }
 
 a.craniolink:before {
@@ -46,7 +43,8 @@ a.craniolink:hover:before {
 
 a.storylink
 {
-    position: relative;
+  position: relative;
+  color: #B3272B;
 }
 
 a.storylink:before {
@@ -56,7 +54,7 @@ a.storylink:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #4B87CE;
+  background-color: #B3272B;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
