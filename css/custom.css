@@ -169,3 +169,28 @@ span {
   right: 34px;
   right: 30px;
 }
+
+div.announcement {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
+  padding-bottom: 0%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgba(73, 135, 206, 0.15);
+  border-radius: 10px;
+}
+
+small {
+  font-size: 20px;
+  font-style: italic;
+}
+
+div.footer {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
+  padding-bottom: 0%;
+  margin-top: 5%;
+  background-color: rgba(73, 135, 206, 0.15);
+}
